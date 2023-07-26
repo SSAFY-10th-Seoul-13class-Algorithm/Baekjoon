@@ -140,4 +140,7 @@ fabric.properties
 hs_err_pid*
 replay_pid*
 
+# ignore build directory created by Gradle
+/build/
+
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij
