@@ -2,7 +2,7 @@ package org.example.week_02;
 
 import java.io.*;
 
-public class BOJ_2447_별찍기_김희연 {
+public class BOJ_2447_별찍기10_김희연 {
     static char[][] arr;
 
     public static void main(String[] args) throws IOException {
