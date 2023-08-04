@@ -27,6 +27,7 @@ public class Boj_10819_차이를최대로_송윤재 {
 		}
 	}
 	
+	
 	static void solve() {
 		permutation(0, 0);
 		sb.append(max);
