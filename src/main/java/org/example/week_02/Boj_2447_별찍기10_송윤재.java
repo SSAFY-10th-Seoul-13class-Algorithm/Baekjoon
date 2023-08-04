@@ -17,6 +17,7 @@ public class Boj_2447_별찍기10_송윤재 {
 	static int N;
 	static boolean map[][];
 	
+	
 	// 입력
 	static void input() throws IOException{
 		N = Integer.parseInt(br.readLine());
