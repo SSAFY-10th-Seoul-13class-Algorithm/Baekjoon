@@ -39,20 +39,16 @@
 
 | 태그       | 설명                      |
 |:---------|:------------------------|
-| feat     | 새로운 기능 추가               |
-| fix      | 버그 수정                   |
-| refactor | 코드 리팩토링                 |
-| comment  | 주석 추가(코드 변경 X) 혹은 오타 수정 |
-| docs     | README와 같은 문서 수정        |
-| merge    | merge                   |
-| rename   | 파일, 폴더명 수정 혹은 이동        |
-
+| success     | 풀이 성공               |
+| fail      | 풀이 실패                   |
+| time out | 시간 내 접근 실패                 |
+| finally  | 재시도 성공 |
 - [태그 BOJ_문제번호] 문제명
-- `feat: BOJ_1000. 경로 찾기`
+- `success: BOJ_1000. 경로 찾기_홍길동`
 
 ## 파일 및 폴더 구조
 
-- Baekjoon/본인이름/폴더명/문제번호_문제명.java
+- Baekjoon/폴더명/문제번호_문제명.java
 
 ## 일정표
 
@@ -62,4 +58,5 @@
 | ------- |---------|-----------------------------------------------| ------------------------------------------------------------ |
 | 1주차   | week_01 | [경로 찾기] https://www.acmicpc.net/problem/11403 |               | 
 | 2주차   | week_02 | [차이를 최대로] https://www.acmicpc.net/problem/10819 | [별 찍기 - 10] https://www.acmicpc.net/problem/2447               | 
+| 3주차   | week_03 | [탑] https://www.acmicpc.net/problem/2493 | [녹색 옷 입은 애가 젤다지?] https://www.acmicpc.net/problem/4485               |
 

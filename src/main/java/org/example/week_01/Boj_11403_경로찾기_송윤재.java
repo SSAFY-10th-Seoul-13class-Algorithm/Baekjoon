@@ -1,4 +1,4 @@
-package org.example.yoonjae.week_01;
+package org.example.week_01;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,14 +9,14 @@ import java.util.StringTokenizer;
 
 
 
-public class Boj_11403_°æ·ÎÃ£±â {
+public class Boj_11403_ê²½ë¡œì°¾ê¸°_ì†¡ìœ¤ìž¬ {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	static StringBuilder sb = new StringBuilder();
 	static StringTokenizer st;
 	static int N, graph[][];
 	
-	// ÀÔ·Â
+	// ï¿½Ô·ï¿½
 	static void input() throws IOException{
 		N = Integer.parseInt(br.readLine());
 		graph = new int[N][N];
@@ -28,12 +28,12 @@ public class Boj_11403_°æ·ÎÃ£±â {
 		}
 	}
 	
-	// Ç®ÀÌ
+	// Ç®ï¿½ï¿½
 	static void solve() {
 		/*
-		 * Á¤Á¡ i¿¡¼­ j±îÁö °¥ ¼ö ÀÖ´Â °æ¿ì´Â
-		 * 	1. i¿¡¼­ j±îÁö °¡´Â °æ·Î°¡ ÀÖÀ» ¶§
-		 * 	2. i¿¡¼­ k±îÁö °¡´Â °æ·Î°¡ ÀÖ°í	k¿¡¼­ j±îÁö °¡´Â °æ·Î°¡ ÀÖÀ» ¶§
+		 * ï¿½ï¿½ï¿½ï¿½ iï¿½ï¿½ï¿½ï¿½ jï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½
+		 * 	1. iï¿½ï¿½ï¿½ï¿½ jï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+		 * 	2. iï¿½ï¿½ï¿½ï¿½ kï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î°ï¿½ ï¿½Ö°ï¿½	kï¿½ï¿½ï¿½ï¿½ jï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		*/
 		for(int k = 0; k < N; k++) {
 			for(int i = 0; i < N; i++) {
