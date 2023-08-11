@@ -39,6 +39,19 @@ public class Boj_4885_녹색옷입은애가젤다지_김태수 {
 			PriorityQueue<int[]> pq = new PriorityQueue<>((p1,p2)->(p1[2] - p2[2]));	//cost순으로 오름차순 정렬
 			pq.offer(new int[] {0,0,map[0][0]});
 			
+			
+			/*시간복잡도: O(N^2)
+			 * 
+			 * 어떤 노드를 방문한다면 그 노드에 최소 코스트로 왔기때문
+			 * -> 다시 방문하지 않기때문에 최악의 경우는 모든 노드를 탐색할때 
+			 * -> 맞는지 모르겠음.
+			 * 
+			 * 
+			 * 공간복잡도: O(N^2)
+			 * 
+			 * 2차원 배열이 가장 큰 공간
+			 * 
+			 * */
 			//탐색 시작
 			while(!pq.isEmpty()) {
 				int[] state = pq.poll();
