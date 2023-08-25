@@ -7,17 +7,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-class Node{
-    int e;
-    int cost;
 
-    Node(int e, int cost){
-        this.e = e;
-        this.cost = cost;
-    }
-}
 
 public class Boj_1167_트리의지름_김희연 {
+
+    class Node{
+        int e;
+        int cost;
+
+        Node(int e, int cost){
+            this.e = e;
+            this.cost = cost;
+        }
+    }
+
     static List<Node>[] list;
     static boolean[] visit;
     static int max = 0;
