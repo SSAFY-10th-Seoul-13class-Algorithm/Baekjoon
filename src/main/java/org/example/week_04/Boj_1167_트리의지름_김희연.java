@@ -26,7 +26,7 @@ public class Boj_1167_트리의지름_김희연 {
     static int max = 0;
     static int node;
 
-    public static void main(String[] args) throws IOException {
+    public void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
         int V = Integer.parseInt(br.readLine());
