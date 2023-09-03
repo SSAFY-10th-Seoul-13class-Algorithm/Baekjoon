@@ -89,10 +89,4 @@ public class Boj_3665_최종순위_강이규 {
         if (res.size() != N) return null;
         return res;
     }
-
-    private static void swap(int i1, int i2) {
-        int tmp = teams[i1];
-        teams[i1] = teams[i2];
-        teams[i2] = tmp;
-    }
 }
