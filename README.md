@@ -63,4 +63,5 @@
 | 5주차   | week_05 | [Two Dots] https://www.acmicpc.net/problem/16929 | [서울 지하철 2호선] https://www.acmicpc.net/problem/16947             |
 | 6주차   | week_06 | [도시 분할 계획] https://www.acmicpc.net/problem/1647 | [최종 순위] https://www.acmicpc.net/problem/3665             |
 | 7주차   | week_07 | [컬러볼] https://www.acmicpc.net/problem/10800 | [외판원 순회] https://www.acmicpc.net/problem/2098             |
+| 8주차   | week_08 | [게임] https://www.acmicpc.net/problem/1103 | [마법사 상어와 비바라기] https://www.acmicpc.net/problem/21610             |
 
