@@ -77,6 +77,11 @@ public class Boj_3665_최종순위_강이규 {
         }
 
         while (!q.isEmpty()) {
+            // 순위를 알 수 없는 경우
+            if (q.size() > 1) {
+                System.out.println("?");
+                System.exit(0);
+            }
             int cur = q.poll();
             res.add(cur);
 
