@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 // 외판원 순회
 // 다이나믹 프로그래밍
 public class Boj_2098_외판원순회_김태수 {
-	static int n;
+	static int n;  
 	static int[][] map;
 	static int[][] dp;
 	static final int INF = Integer.MAX_VALUE;
