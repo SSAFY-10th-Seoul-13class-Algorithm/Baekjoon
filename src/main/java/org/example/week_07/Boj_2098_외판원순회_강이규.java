@@ -1,4 +1,4 @@
-package BOJ;
+package org.example.week_07;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Q_2098 {
+public class Boj_2098_외판원순회_강이규 {
 
     static int N;
     static int[][] adjMatrix;
