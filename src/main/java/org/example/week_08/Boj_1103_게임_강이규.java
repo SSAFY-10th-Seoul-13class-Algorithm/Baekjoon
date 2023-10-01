@@ -46,7 +46,7 @@ public class Boj_1103_게임_강이규 {
             int nr = r + (move[0] * map[r][c]);
             int nc = c + (move[1] * map[r][c]);
             if (!isValid(nr, nc)) continue;
-            if (visited[nr][nc]) {
+            if (visited[nr][nc]) { // 사이클 존재
                 System.out.println(-1);
                 System.exit(0);
             }
