@@ -65,4 +65,7 @@
 | 7주차   | week_07 | [컬러볼] https://www.acmicpc.net/problem/10800 | [외판원 순회] https://www.acmicpc.net/problem/2098             |
 | 8주차   | week_08 | [게임] https://www.acmicpc.net/problem/1103 | [마법사 상어와 비바라기] https://www.acmicpc.net/problem/21610             |
 | 9주차   | week_09 | [퇴사 2] https://www.acmicpc.net/problem/15486 | [K번째 수] https://www.acmicpc.net/problem/1300             |
+| 10주차   | week_10 | [BFS 스페셜 저지] https://www.acmicpc.net/problem/16940 | [DFS 스페셜 저지] https://www.acmicpc.net/problem/16964             |
+
+
 
